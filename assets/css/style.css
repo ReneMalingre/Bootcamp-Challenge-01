@@ -19,7 +19,7 @@ p {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #2A5D79; /* was #2a607c, which could fail color contrast test for accessibility */
     color: #ffffff;
 }
 
@@ -84,7 +84,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #0072bb;
+    background-color: #005B94; /* was #0072bb, which fails color contrast test for accessibility */
     color: #ffffff;
 }
 
@@ -110,7 +110,7 @@ body {
     float: right;
     width: 20%;
     height: 100%;
-    background-color: #2589bd;
+    background-color: #175E82; /* was #2589bd, which fails color contrast test for accessibility */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
