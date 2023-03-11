@@ -15,9 +15,9 @@ This project is aimed at refactoring the HTML and CSS of a single-page website i
 
 ## Project Description
 
-The website in question is a single-page website for a web marketing company (Horiseon) that contains several sections and elements that describe the services offered by the company. The website was initially built without considering accessibility. This can make it difficult for some people to use the website, and it reduces the website's potential for a good search engine ranking. This project aims to refactor the code to improve accessibility by adding relevant tags, attributes, comments and properties to the HTML and CSS code.
+The website in question is a single-page website for a web marketing company (Horiseon Social Solution Services, Inc) that contains several sections and elements that describe the services offered by the company. The website was initially built without considering accessibility. This can make it difficult for some people to use the website, and it reduces the website's potential for a good search engine ranking. This project aims to refactor the code to improve accessibility by adding relevant tags, attributes, comments and properties to the HTML and CSS code.
 
-Image assets will be resized to reduce network utilisation, increase load speed and to reduce the burden on screen-readers and other accessibility software. Image resolution will be set to be twice the maximum image width or height set by the web page CSS to retain an excellent appearance on high-dpi screens.
+Image assets will be resized to reduce network utilisation, increase load speed and reduce the burden on screen-readers and other accessibility software. Image resolution will be set to be twice the maximum image width or height set by the web page CSS to retain an excellent appearance on high-dpi screens.
 
 The project will make use of Google Chrome Developer Tools, including Lighthouse, to ensure that the website is accessible to people with disabilities.
 

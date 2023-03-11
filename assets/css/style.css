@@ -1,11 +1,11 @@
-/* Global selector - set element sizing to border-box model */
+/* global selector - set element sizing to border-box model */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* set default style for links and paragraphs */
+/* set default style for link and paragraph elements */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -15,7 +15,7 @@ p {
     font-size: 16px;
 }
 
-/* Header elements styles */
+/* header elements styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,7 +33,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Header contains navigation elements to page anchors */
+/* header contains navigation elements to page anchors */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,12 +51,12 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* body elements */
+/* body elements set background colour */
 body {
     background-color: #d9dcd6;
 }
 
-/* Hero picture section*/
+/* hero picture section; set here to allow nav elements to overlap image correctly */
 .hero {
     height: 800px;
     width: 100%;
@@ -66,7 +66,7 @@ body {
     background-position: center;
 }
 
-/* Style the list of services section */
+/* style the list of services section */
 .services {
     width: 75%;
     display: inline-block;
@@ -74,7 +74,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Style the service item elements*/
+/* style the service item elements */
 .service-item h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -102,7 +102,7 @@ body {
     margin-left: 25px;
 }
 
-/* Style the list of benefits section*/
+/* style the list of benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,7 +114,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Style the benefit item elements*/
+/* style the benefit item elements */
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
@@ -131,7 +131,7 @@ body {
     max-width: 150px;
 }
 
-/* footer elements */
+/* footer elements styling */
 footer {
     padding: 30px;
     clear: both;

@@ -11,7 +11,9 @@
 <body>
     <!-- header contains the company logo and intra-page navigation to id anchors -->
     <header>
+        <!-- Company logo -->
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- Intra-page navigation -->
         <nav>
             <ul>
                 <li>
@@ -30,19 +32,21 @@
     <main>
         <!-- Hero background image representing hard work and collaboration -->
         <section>
-            <!-- Empty span added to allow for alt text for background-image -->
+            <!-- Empty span added with aria-label to get around the limitation of no alt text for a background-image -->
             <span role="img"
                 aria-label="Image of people having a work meeting with web wireframe model diagrams and other documents."></span>
-            <!-- background-image is specified in CSS so that Nav elements overlap image correctly on small screen widths -->
+            <!-- background-image is specified in CSS so that Nav elements overlap the image correctly on small screen widths -->
             <div class="hero" />
         </section>
 
         <!-- List of services provided by company-->
         <section class="services">
             <!-- Three sub-sections, each with a heading, image and description describing a service the company can provide -->
+            <!-- service: search engine optimisation -->
             <div id="search-engine-optimization" class="service-item">
                 <img src="./assets/images/search-engine-optimization.jpg"
-                    alt="Image of a desktop with a notepad describing SEO services." class="service-item-img-float-left" />
+                    alt="Image of a desktop with a notepad describing SEO services."
+                    class="service-item-img-float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they
@@ -50,7 +54,7 @@
                     your visibility and find the right customers for your business.
                 </p>
             </div>
-
+            <!-- service: online reputation management -->
             <div id="online-reputation-management" class="service-item">
                 <img src="./assets/images/online-reputation-management.jpg" class="service-item-img-float-right"
                     alt="Image of a person holding a mobile telephone, sitting at a laptop that has the word 'reputation' prominently displayed" />
@@ -61,7 +65,7 @@
                     gives you the control over what potential customers see when they search for your business.
                 </p>
             </div>
-
+            <!-- service: social media marketing -->
             <div id="social-media-marketing" class="service-item">
                 <img src="./assets/images/social-media-marketing.jpg" class="service-item-img-float-left"
                     alt="A large table surrounded by people with large social media and web icons scatterd over the table top." />
@@ -77,6 +81,7 @@
         <!-- List of benefits of utilising the services of the company -->
         <section class="benefits">
             <!-- Three sub-sections, each with a heading, image and description describing anticipated results of services-->
+            <!-- benefit: lead generation -->
             <div class="benefit-item">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png"
@@ -86,7 +91,7 @@
                     directly to your website.
                 </p>
             </div>
-
+            <!-- benefit: brand awareness -->
             <div class="benefit-item">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" alt="A graphic of a man with a lightbulb as a head." />
@@ -95,7 +100,7 @@
                     visibility for your business.
                 </p>
             </div>
-
+            <!-- benefit: cost management -->
             <div class="benefit-item">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="A graphic of coins in front of a gear." />
@@ -106,7 +111,7 @@
             </div>
         </section>
     </main>
-
+    <!-- footer contains company name and copyright notice -->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
