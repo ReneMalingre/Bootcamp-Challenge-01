@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+/* body elements set background colour */
+body {
+    background-color: #d9dcd6;
+}
+
 /* set default style for link and paragraph elements */
 a {
     color: #ffffff;
@@ -46,17 +51,13 @@ header nav ul {
     list-style-type: none;
 }
 
+/* navigation elements are inline-block to allow them to be side-by-side */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* body elements set background colour */
-body {
-    background-color: #d9dcd6;
-}
-
-/* hero picture section; set here to allow nav elements to overlap image correctly */
+/* hero picture section; imgage defined here to allow the nav elements to overlap image correctly */
 .hero {
     height: 800px;
     width: 100%;
@@ -102,7 +103,8 @@ body {
     margin-left: 25px;
 }
 
-/* style the list of benefits section */
+/* style the list of benefits section 
+the services are on the left (75%), the benefits are on the right*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
