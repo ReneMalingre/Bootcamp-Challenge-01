@@ -34,7 +34,7 @@ This project has the following dependencies:
 
 To use this project, simply clone the repository to your local machine and open the index.html file in your browser. You can then view and interact with the website to see the improvements that have been made.
 
-Alternatively, the website is live on [Github Pages](https://renemalingre.github.io/Bootcamp-Challenge-01/) and can be viewed and inspected using a modern browser.
+Alternatively, the website is live on Github Pages and can be viewed and inspected using a modern browser by using this URL: [renemalingre.github.io/Bootcamp-Challenge-01/](https://renemalingre.github.io/Bootcamp-Challenge-01/)
 
 ## Contributing
 

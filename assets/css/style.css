@@ -24,7 +24,8 @@ p {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2A5D79; /* was #2a607c, which could fail color contrast test for accessibility */
+    /* background-color changed: was #2a607c, which could fail color contrast test for accessibility */
+    background-color: #2A5D79;
     color: #ffffff;
 }
 
@@ -68,7 +69,7 @@ header nav ul li {
 }
 
 /* style the list of services section */
-.services {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -76,43 +77,46 @@ header nav ul li {
 }
 
 /* style the service item elements */
-.service-item h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .service-item {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #005B94; /* was #0072bb, which fails color contrast test for accessibility */
+    background-color: #005B94;
+    /* was #0072bb, which fails color contrast test for accessibility */
     color: #ffffff;
+}
+
+.service-item h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .service-item img {
     max-height: 200px;
 }
 
-.service-item-img-float-left {
+/* classes used to format positon of the service-item images */
+.float-left {
     float: left;
     margin-right: 25px;
 }
 
-.service-item-img-float-right {
+.float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* style the list of benefits section 
 the services are on the left (75%), the benefits are on the right*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    background-color: #175E82; /* was #2589bd, which fails color contrast test for accessibility */
+    /* background-color changed: was #2589bd, which fails color contrast test for accessibility */
+    background-color: #175E82;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
