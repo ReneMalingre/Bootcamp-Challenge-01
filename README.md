@@ -1,9 +1,8 @@
-# Bootcamp-Challenge-01
-Bootcamp Challenge 1 - HTML, CSS, and Git: Code Refactor
+# Refactoring HTML and CSS Code for Improved Accessibility
 
-## Refactoring HTML and CSS Code for Improved Accessibility
+## Bootcamp Challenge 1 - HTML, CSS, and Git: Code Refactor
 
-This project is aimed at refactoring the HTML and CSS of a single-page website in order to make it conform to accessibility standards. The aim of this is to make the website more accessible to people with disabilities, including those with visual, auditory, and motor impairments, and to optimise the site for search engines. 
+This project is aimed at refactoring the HTML and CSS of a single-page website in order to make it conform to accessibility standards. The aim of this is to make the website more accessible to people with disabilities, including those with visual, auditory, and motor impairments, and to thereby help optimise the site for search engines.
 
 ## Table of Contents
 
@@ -21,7 +20,11 @@ The project will make use of Google Chrome Developer Tools, including Lighthouse
 
 Image assets will be resized to reduce network utilisation, increase load speed and reduce the burden on screen-readers and other accessibility software. Image resolution will be set to be twice the maximum image width or height set by the web page CSS to retain an excellent appearance on high-dpi screens.
 
-Element background colours will be altered by the least amount possible in order to increase text contrast so that text elements pass Lighthouse accessibility tests without changing the theme of the website in a material way.
+Element background colours will be altered by the least amount possible in order to increase text contrast so that text elements pass Lighthouse text contrast accessibility tests without changing the theme of the website in noticeable way.
+
+### Screenshot of the Refactored Horiseon Website
+
+![Screenshot of the refactored website](assets/images/screenshot.png)
 
 ## Dependencies
 
