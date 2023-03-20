@@ -24,7 +24,7 @@ Element background colours will be altered by the least amount possible in order
 
 ### Screenshot of the Refactored Horiseon Website
 
-![Screenshot of the refactored website](./assets/images/scrshot.png)
+![Screenshot of the refactored website](./docs/scrshot.png)
 
 ## Dependencies
 
